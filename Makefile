@@ -3,7 +3,7 @@ OBJDIR=obj
 INCLUDEDIR=include
 SRCDIR=src
 DOCDIR=doc
-CFLAGS=-std=c++0x -Wall -c -Os -c -I$(INCLUDEDIR) -I/usr/include/cryptopp/
+CFLAGS=-std=c++0x -Wall -Os -c -I$(INCLUDEDIR) -I/usr/include/
 CP=cp
 RM=rm -f
 RMDIR=rm -rf
